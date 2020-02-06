@@ -5,11 +5,11 @@
     5  ls -l
     6  cd Darbi
     7  ls -l
-    8  -m http.server: 8000 &
-    9  ~m http.server: 8000 &
-   10  -m http.server: 8000 &
-   11  python -m http.server: 8000
-   12  python ~m http.server: 8000 &
+   ### 8  -m http.server: 8000 &
+   ### 9  ~m http.server: 8000 &
+   ###10  -m http.server: 8000 &
+   ###11  python -m http.server: 8000
+   ###12  python ~m http.server: 8000 &
    13  python -m http.server 8000 &
    14  ps -aux | grep
    15  ps -aux | grep 8000
