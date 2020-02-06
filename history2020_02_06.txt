@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/EE0711/RTR108
+    4  cd RTR108/
+    5  ls -l
+    6  cd Darbi
+    7  ls -l
+    8  -m http.server: 8000 &
+    9  ~m http.server: 8000 &
+   10  -m http.server: 8000 &
+   11  python -m http.server: 8000
+   12  python ~m http.server: 8000 &
+   13  python -m http.server 8000 &
+   14  ps -aux | grep
+   15  ps -aux | grep 8000
+   16  kill 2458
+   17  ps -aux | grep 8000
+   18  python -m http.server 8000 &
+   19  ls -l
+   20  ps -aux | grep 8000
+   21  kill 2569
+   22  cd ..
+   23  ls -l
+   24  python -m http.server 8000 &
+   25  nano index.html
+   26  ls -l
+   27  nano index.html 
+   28  nano index.html
+   29  ifconfig
+   30  nano index.html 
+   31  ls -lt ../Downloads/
+   32  unzip ../Downloads/ngrok-stable-linux-amd64.zip 
+   33  ls -lt ../Downloads/
+   34  ls -l
+   35  ps -aux | grep 8000
+   36  ./ngrok http 8000
+   37  ls -l
+   38  rm ngrok 
+   39  ls -l
+   40  history
+   41  history 2020_02_06
+   42  history 2020_02_06.txt
+   43  history > history2020_02_06.txt
